@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+header {
+    width: 100%;
+    background: fixed;
+    background-color: rgba(0, 0, 0, 0.669);
+}
+
+.header {
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img {
+    width: 30px;
+    height: 30px;
+    color: rgb(201, 201, 201);
+
+}
+
+.header a {
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+}
+
+
+.header2 {
+    width: 1120px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(227, 232, 236);
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.head-item {
+    grid-gap: 5px;
+}
+
+.head-item b {
+    grid-gap: 5px;
+    color: rgb(255, 0, 255);
+}
+
+.head-item p {
+    grid-gap: 5px;
+    font-size: small;
+}
+
+.head-item .p {
+    grid-gap: 5px;
+    color: red;
+}
+
+.head-item a {
+    font-size: small;
+    text-decoration: none;
+}
+
+
+.head-item:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.head-item:nth-child(3) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.head-item:nth-child(4) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.head-item:nth-child(5) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.head-item img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+main {
+    width: 1120px;
+    margin: 50px auto;
+}
+
+.head .p1 {
+    color: gray;
+}
+
+.head h1 {
+    font-size: 50px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right .p1 {
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.before img {
+    width: 750px;
+    height: 100%;
+    position: sticky;
+    border-radius: 18px;
+}
+
+._flex {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 30px;
+}
+
+.iphone {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px rgb(166, 164, 164) solid;
+    background-color: white;
+}
+
+.after {
+    align-items: center;
+}
+
+.before {
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+.after .right {
+    text-align: right;
+}
+
+.after .left {
+    text-align: left;
+    padding-top: 7px;
+}
+
+.iphone {
+    width: 100%;
+}
+
+.colors h3 {
+    margin-left: 5px;
+}
+
+.h5 {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.after button {
+    margin: 15px;
+}
+
+span {
+    color: grey;
+}
+
+.iphone1 {
+    width: 350px;
+    height: 90px;
+    align-items: center;
+    border: none;
+    background-color: rgb(232, 229, 229);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.pading {
+    padding: 10px;
+}
+
+.colors {
+    margin-left: 10px;
+}
+
+.width {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.colors4 {
+    grid-gap: 20px;
+
+}
+
+
+.activeC {
+    border: 2px blue solid;
+}
+
+.after .h2 {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.bottom h2 {
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+.left1 {
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.right1 {
+    width: 250px;
+    text-align: right;
+}
+
+.iphone {
+    width: 100%;
+}
+
+.image {
+    width: 750px;
+    background-image: url(./img/5.jpg);
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 20px;
+    width: 750px;
+    height: 500px;
+    background-size: contain;
+    transition: all 0.3s ease;
+}
+
+.modalBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.651);
+
+}
+
+.modal {
+    margin: 0 auto;
+    width: 600px;
+    height: fit-content;
+    background-color: white;
+    padding: 40px 60px;
+
+    align-items: center;
+    text-align: center;
+    display: none;
+    background-color: orange;
+    transition: .5s ease;
+}
+
+.btns {
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 13px;
+    margin-left: -400px;
+}
+
+
+.activeB {
+    border: 2px blue solid;
+    border-radius: 50%;
+}
